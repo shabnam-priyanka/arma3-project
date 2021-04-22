@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar css starts here */
+
+.main-logo {
+  height: 40px;
+}
+.nav-text li a {
+  color: white;
+}
+/* Navbar css ends here */
+
+/* Header area CSS starts here */
+#header-area {
+  background: url("image/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: auto;
+  padding-top: 50px;
+  position: relative;
+}
+
+#header-area::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(29, 25, 25, 0.4);
+}
+
+.left-img img {
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.right-text-area {
+  color: aliceblue;
+  position: relative;
+  z-index: 1;
+}
+
+.header-btn {
+  background-color: rgb(30, 108, 226);
+  color: white;
+}
+.header-btn:hover {
+  background-color: rgb(253, 172, 21);
+}
+/* Header area CSS ends here */
+
+/* Rent your Arma section starts */
+.rent-bg {
+  padding: 80px;
+  background-color: rgb(187, 187, 187);
+}
+
+.text-area h1 {
+  padding-bottom: 30px;
+}
+/* Rent your Arma section ends */
+
+/* CARD pop up area starts here*/
+
+.cards-animation {
+  padding: 50px 0;
+}
+.card-area {
+  height: 500px;
+  width: 350px;
+  /* border: 1px solid rgb(124, 31, 31); */
+}
+
+.top-text {
+  background-color: orange;
+  height: 260px;
+  text-align: center;
+  color: white;
+}
+.bottom-text {
+  background-color: lightgray;
+  height: 240px;
+}
+
+.small-sign {
+  font-size: 20px;
+}
+.big-sign {
+  font-size: 80px;
+}
+/* CARD pop up area ends here*/
